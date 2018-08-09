@@ -51,6 +51,10 @@
 
 8. 浮点型和整型可以调用`islower`吗？执行`"Udacity".islower()`和`"udacity".islower()`分别会得到什么结果？为什么？
 
+   - 不可以
+   - 结果为 False True 
+   - 因为这个方法是检测字符串是否由小写字母组成的方法
+
 9. 计算下式，并用科学计数法表示结果：`3.14e7*0.7`
 
    - 3.14e7*0.7＝2.198e7
@@ -99,4 +103,12 @@
     - not翻转值，传入真值返回假值，传入假值返回真值
 
 18. `string1 = 'I'm a student.'    print(string1)`结果会报错吗？如何修改`string1`使其得到正确的输出？
+
+    - 会报错
+
+    - `string = 'I\'m a student'`
+
+    - `string = "I'm a student"
+
+      
 
