@@ -7,9 +7,9 @@
 2. 若 `x = 2`
     ```python
     if(x > 3): 
-    	print("True")
+        print("True")
     else: 
-    	print("False")
+        print("False")
     ```
 
     则该段代码的执行结果是?
@@ -21,10 +21,10 @@
     x = None
     y = 1
     z = 3
-    if not (x and y or z) : 
-    	print("False")
+    if not (x and y or z): 
+        print("False")
     else: 
-    	print("True")
+        print("True")
     ```
 
 5. 该段代码的输出结果是?
@@ -32,9 +32,9 @@
     x = 0
     y = 1
     if x and y:
-    	print("False")
+        print("False")
     elif x or y:
-    	print("True")
+        print("True")
     ```
 
 6. 请在空白处填写合适的代码,
@@ -50,9 +50,9 @@
     ```python
     x = 0
     if x:
-    	print("False")
+        print("False")
     else:
-    	print("True")
+        print("True")
     ```
 
 8. `cities = ['Beijing', 'Shanghai', 'Shenzhen', 'Guangzhou']`,请使用 for语句遍历 cities,输出 cities 中的元素。
@@ -64,20 +64,20 @@
 11. 若是想要输出“False”,则 x 可以取哪些整数?
     ```python
     if (x > 5):
-    	print("True")
+        print("True")
     elif x > 0 and x < 5:
-    	print("False") 
+        print("False") 
     else: 
-    	print("Error")
+        print("Error")
     ```
 
 12. 该段代码的输出结果是?
     ```python
     x = 0
     if not x: 
-    	print("True")
+        print("True")
     else: 
-    	print("False")
+        print("False")
     ```
 
 13. 如下代码
@@ -111,7 +111,7 @@
     y = []
     i = 0
     while(x[i] < 10):
-    	y.append(x[i])
+        y.append(x[i])
         print(y)
         i +=1
     ```
