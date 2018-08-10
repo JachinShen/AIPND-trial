@@ -113,6 +113,6 @@
     while(x[i] < 10):
         y.append(x[i])
         print(y)
-        i +=1
+        i += 1
     ```
     y 的最终输出结果是?
