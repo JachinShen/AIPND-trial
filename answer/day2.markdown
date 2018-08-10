@@ -115,6 +115,10 @@
 
     如:`{'a': 1, 'b': 2}`变为`['a', 'b'], [1, 2]`
 
+    - `dict = {'a': 1, 'b': 2}`
+    - `dict.keys()`
+    - `dict.values()`
+
 15. `my_list = ['name', 'age', 105, 12.5]`，创建一个新的列表`new_list`，包含`my_list`中的前三个元素
 
     ```python
